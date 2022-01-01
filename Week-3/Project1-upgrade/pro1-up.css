@@ -1,0 +1,71 @@
+* {
+    padding: 3px;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia;
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+    font-family: Georgia;
+    color: green;
+}
+
+h4 {
+    color: green;
+    font-family: Georgia;
+}
+
+h5 {
+    color: green;
+    font-family: Georgia;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 20px;
+}
+
+p,
+span {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: line-through red;
+}
+
+#title {
+    text-decoration: underline;
+    text-transform: initial;
+    font-size: 20px;
+}
+
+.green {
+    color: darkred;
+}
+
+img {
+    float: left;
+    padding: 15px;
+}
+
+ol {
+    list-style-type: circle;
+    list-style-position: inside;
+}
