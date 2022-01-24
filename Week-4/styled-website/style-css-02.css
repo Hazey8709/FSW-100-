@@ -1,0 +1,217 @@
+/* CSS Page  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: #030729;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+    background-color: rgba(0, 0, 0, 0.247);
+    border: 0.1px solid black;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-icon {
+    width: 35px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 30px;
+    border: 0.1px solid #fff724;
+    border-radius: 10px;
+    background-color: #fff8242f;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+nav ul li a:active {
+    color: rgb(9, 255, 0);
+    text-decoration: line-through;
+}
+
+.title-header {
+    margin-top: 1.5in;
+    text-align: center;
+    font-size: 1.5in;
+    text-shadow: 10px -10px rgba(6, 7, 0, 0.808);
+}
+
+.title-header:hover {
+    color: #ff0000;
+    text-shadow: -100px 200px #0005;
+}
+
+body {
+    background-color: #030729;
+}
+
+/*  H1 Contact Page Style */
+
+.text-box-contact {
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.text-box-contact:hover {
+    text-shadow: 0px -100px rgba(237, 241, 3, 0.829);
+    font-size: 80px;
+    color: #030729;
+}
+.text-box-contact h1 {
+    font-size: 80px;
+    line-height: 100px;
+}
+
+/* home & about h1 style  */
+
+.text-box {
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.text-box:hover {
+    color: yellow;
+    text-shadow: 10px 10px rgba(65, 64, 64, 0.719);
+}
+
+.text-box h1 {
+    font-size: 60px;
+    line-height: 100px;
+}
+
+.contact-paragraph {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.342);
+    text-align: center;
+    width: 5.2in;
+    height: 1.6in;
+    border: 5px double yellow;
+    border-radius: 5px;
+}
+
+.center-div {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-div:hover {
+    background-color: white;
+}
+
+.contact-paragraph a {
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 5px 0px rgba(255, 255, 0, 0.37);
+    color: rgb(6, 7, 0);
+}
+
+.contact-paragraph a:hover {
+    color: red;
+    font-weight: normal;
+}
+
+/* Github link */
+.contact-paragraph a:active {
+    color: rgb(9, 255, 0);
+    text-decoration: underline;
+}
+
+.blog-style {
+    width: auto;
+    height: fit-content;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.blog-style h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog-style img {
+    float: left;
+    margin: 10px;
+}
+
+.blog-style p {
+    color: yellow;
+}
+
+.blog-style a {
+    text-decoration: none;
+    display: block;
+    color: red;
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+.blog-style a:hover {
+    color: rgb(9, 255, 0);
+    text-decoration: underline;
+}
+
+.blog-style-2 {
+    padding: 20px;
+}
+
+.blog-style-2 a {
+    margin-top: 1in;
+}
+
+.blog-style-3 {
+    padding: 20px;
+}
+
+#header-2 {
+    margin-top: 2in;
+    text-align: center;
+}
