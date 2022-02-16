@@ -1,0 +1,443 @@
+/*  CSS Page  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* ! Nav.  */
+.header {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    width: 150px;
+    height: 122px;
+    margin: 20px 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+nav {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    background: #000500;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+nav ul:hover {
+    background-color: rgb(34, 34, 34);
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    text-transform: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(226, 226, 236);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+    font-style: italic;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+nav ul li a:active {
+    color: rgb(206, 228, 10);
+    text-decoration: underline;
+    font-size: large;
+}
+
+nav.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 8%;
+    background: rgba(0, 0, 0, 0.575);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: padding 2s;
+}
+
+nav.sticky ul {
+    width: auto;
+}
+
+/* !  Home. Site Name */
+.name-container {
+    display: flex;
+    background-color: rgb(253, 253, 253);
+    justify-content: center;
+    font-family: "Pacifico", cursive;
+    margin-bottom: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.name-container:hover {
+    background-color: rgb(34, 34, 34);
+    border: 2px solid white;
+    color: white;
+}
+
+.name-container h1 {
+    font-size: 64px;
+    font-family: "Pacifico", cursive;
+}
+
+body {
+    background-image: linear-gradient(
+        rgb(1, 1, 49),
+        rgb(3, 3, 97),
+        rgb(1, 1, 112),
+        blue
+    );
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* !  Home. Auto text */
+.text-box {
+    color: white;
+}
+
+main {
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 22px;
+    padding: 20px;
+    text-indent: 20px;
+    margin: 20px auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+main:hover,
+.text-box:hover {
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+/* !  Home. Grid  */
+.grid-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 200px 200px 100px;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.title {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#title-pic {
+    min-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.row1-1 {
+    background-color: white;
+}
+
+#pic-1 {
+    min-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.row1-2 {
+    background-color: blue;
+}
+
+#pic-2 {
+    min-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.row1-3 {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+#pic-3 {
+    min-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.row2-1 {
+    background-color: brown;
+    border-radius: 10px;
+}
+
+#pic-4 {
+    min-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.row2-2 {
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+
+#pic-5 {
+    min-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.row2-3 {
+    background-color: coral;
+    border-radius: 10px;
+}
+
+#pic-6 {
+    min-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(90, 90, 90);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+/*!    Home. Footer Links  */
+#link-1 {
+    padding: 20px;
+}
+
+/*! Contact. Info Box */
+.center-div {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    border: 5px outset white;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+    padding: 5px;
+}
+
+.center-div:hover {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: 3px double white;
+}
+
+.contact-paragraph a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(6, 7, 0);
+    text-shadow: 0 0 10px yellow;
+    padding-left: 40%;
+}
+
+.contact-paragraph a:hover {
+    color: red;
+    font-weight: bold;
+    text-shadow: 5px 0px 10px rgba(36, 13, 248, 0.959);
+}
+
+/*!    Contact.  Form  */
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(3, 3, 97) rgb(1, 1, 112));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 10px 20px 20px #000000e5;
+    background-color: rgb(185, 183, 183);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial", sans-serif;
+    font-weight: bold;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(26, 25, 25, 0.808);
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: antiquewhite;
+}
+
+.form-group input:hover,
+.form-group textarea:hover {
+    border: 3px solid rgba(26, 25, 25, 0.808);
+}
+
+textarea {
+    resize: vertical;
+}
+button[type="submit"] {
+    width: 100%;
+    border: 1px double black;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: rgb(7, 159, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+    background-color: rgb(191, 219, 241);
+    border: 3px outset green;
+    border-top: none;
+    color: green;
+    font-weight: bold;
+}
+#status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+#status.success {
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+}
+#status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+
+/*!   Contact. links    */
+#contact-links {
+    padding: 7px;
+}
+
+/*!  About. Header and Paragraph  */
+#about {
+    border: 2px solid black;
+    background-color: grey;
+    width: 600px;
+    min-width: 400px;
+    border-radius: 10px;
+    margin: 150px auto;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.about-h2 {
+    padding: 10px;
+}
+
+.about-h2:hover {
+    color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.about-p {
+    font-size: 18px;
+    text-align: left;
+    text-indent: 40px;
+}
+
+.hope-p {
+    font-size: 18px;
+}
+
+/*!  Responsive  */
+
+@media only screen and (max-width: 425px) {
+    .grid-container > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 125px 125px 125px;
+        grid-template-rows: 75px 100px 100px 75px;
+        grid-gap: 2px;
+        padding: 5px;
+    }
+}

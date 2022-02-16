@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <title>Contact</title>
+    </head>
+    <body>
+        <div class="header">
+            <nav id="navbar">
+                <img src="/IMG/NoobieJ-logo-3.png" class="logo" />
+                <ul id="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section>
+            <div class="container">
+                <form
+                    action="https://formspree.io/f/xwkyovyq"
+                    method="POST"
+                    id="my-form"
+                >
+                    <div class="form-group">
+                        <label for="firstName"> First Name</label>
+                        <input type="text" id="firstName" name="firstName" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="latsName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="massage">Massage</label>
+                        <textarea
+                            name="massage"
+                            id="massage"
+                            cols="30"
+                            rows="10"
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" onsubmit="myFuntcion()">
+                        Submit
+                    </button>
+                </form>
+            </div>
+            <div id="status"></div>
+        </section>
+
+        <div class="center-div">
+            <p class="contact-paragraph">
+                <span>
+                    Name: Jordan Fortin <br />
+                    Email:jfhazey87@outlook.com <br />
+                    Email:jfortin802@gmail.com <br />
+                    Contact #: (508) 493-6279 <br />
+                </span>
+                <a
+                    id="contact-links"
+                    href="https://github.com/Hazey8709"
+                    target="_blank"
+                    >GitHub</a
+                >
+                <a
+                    id="contact-links"
+                    href="https://www.facebook.com/people/Noobie-Js/100077721983756/"
+                    target="_blank"
+                    >FaceBook</a
+                >
+                <a
+                    id="contact-links"
+                    href="https://www.youtube.com/channel/UC7fWlqdyFBA1FwEVhtDMcuA"
+                    target="_blank"
+                    >YouTube</a
+                >
+                <a
+                    id="contact-links"
+                    href="https://www.fiverr.com/s2/a9565ef371"
+                    target="_blank"
+                    >Fiverr.</a
+                >
+                <br />
+            </p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
