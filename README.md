@@ -1,5 +1,8 @@
-# FSW-101-
+# Introduction to Web Development - HTML, CSS.   FSW-101
 
-Class from Bryan University
+#### Build responsive designs, Practice forms & Inputs.
 
- Introduction to Web Development - *HTML and CSS*
+###### *Class from Bryan University.*
+###### *Author: Jordan.*
+###### *Languages: HTML, CSS.*
+
